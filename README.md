@@ -3,12 +3,11 @@ Theron, Quinn, Kaya (Xinyi Wu) , Yujin, Cherie & Ivy (Yu Wang)
 
 
  
-Introduction:
+## Introduction
 In the current landscape of American politics, characterized by deep partisan divides, many pressing political and social issues persist in need of resolution. Under this situation, do the two major parties in the United States engage in cooperation, focusing jointly on common concerns, or do they remain divided, each acting with their own agendas? How do  differing political affiliations impact the attention politicians devote to similar societal issues and their overall political attitudes? And how is this reflected in online interactions between US congresspeople?
 To investigate these questions and explore how political stances influence bipartisan discussion on key societal matters, our group has undertaken an analysis of Tweets by members of the 115th US Congress. Specifically, we aim to establish levels of bipartisanship across different key US electoral issues by examining a dataset of tweets from August 2017. Through an examination of the interconnectivity and topical focus of tweets from congress members of both parties, we seek to understand which styles of discussion are politically divisive and which are bipartisan. More specifically, we have selected three long standing issues—health, military affairs, and immigration—that have garnered sustained attention. Through our analysis, we hope to gain an understanding of the relationship between the two major parties, the Republican party and the Democratic party, in the United States during the 2017 period.
 
-Methodology
-
+## Methodology
 Our methodology began with the acquisition of tweets from members of Congress for August 2017, sourced from alexlitel’s Tweets of Congress database. For our first step, we extracted the accounts of Congressional members from the database and coded them as red (Republican) and blue (Democrat). For the two independent members, we manually assigned them as Democrats, since they both caucused with the Democratic Party in the Senate. 
 
 Next, we identified relevant keywords related to health, military affairs, and immigration through combining relevant news with the tweets' content. We parsed the tweets to identify those containing these keywords that are related to our area of interest. We then constructed a bipartite graph with nodes representing both politicians and keywords, and edges connecting politicians to the keywords present in their tweets. Using the Louvain algorithm, we identified distinct “communities” of discourse, representing clusters of politicians and keywords that frequently co-occurred. We assessed bipartisanship within each community by analyzing the proportion of politicians from different parties and the frequency of the appearance of relevant keywords that we have selected. 
@@ -24,8 +23,7 @@ Health
 Military
 Immigration 
 
-Limitations and Improvements
-
+## Limitations and Improvements
 Our analysis yielded bar graphs visualizing political representation and community engagement, but we also acknowledged several limitations. 
 
 First, our results are highly dependent on the keywords selected, significantly influencing which tweets are included and potentially omitting relevant discussions. Our personal bias during the word selection phrase may also lead to the imperfection of the list of words, leaving the subsequent investigation with certain deviations.
@@ -40,7 +38,6 @@ Expanding the dataset to include tweets from a longer period and updating it to 
 Finally, we originally wished to use Natural Language Processing (NLP) to identify the sentiment of tweets, which would help discern whether Congress members intended to collaborate or held opposing views on the same issue. However, due to the limited data from just one month, this was not feasible. Acquiring a larger dataset would enable us to utilize NLP techniques effectively, providing deeper insights into the attitudes and potential for collaboration among Congress members.
 
 
-Conclusion
-
+## Conclusion
 At a time when US politics appear more divided than ever in recent memory, finding spaces of bipartisan discussion becomes that much more important. Understanding how politicians across the political spectrum and from both major parties interact online can help us to understand where consensus on long standing political issues may lie. Our analysis indicates
 
