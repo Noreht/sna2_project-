@@ -1,4 +1,4 @@
-Analysis of 2017 US Congressional tweets to establish levels of bipartisanship across different key US electoral issues
+# Analysis of 2017 US Congressional tweets to establish levels of bipartisanship across different key US electoral issues
 Theron, Quinn, Kaya (Xinyi Wu) , Yujin, Cherie & Ivy (Yu Wang)
 
 
