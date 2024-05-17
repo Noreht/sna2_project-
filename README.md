@@ -14,14 +14,44 @@ Next, we identified relevant keywords related to health, military affairs, and i
 
 Our quantitative analysis involved calculating metrics such as modularity and clustering coefficient to evaluate the structure and cohesion of the identified communities. Meanwhile, qualitative analysis of the content and context of tweets within each community helped identify recurring themes and patterns of bipartisan or partisan discourse. We compared the composition and characteristics of communities across different political and social issues to discern variations in bipartisanship levels and the level of attention of different political parties on the same issue. Finally, we synthesized the results to generate comprehensive insights into bipartisanship levels across different issues. 
 
+### Immigration
 
-(Data)
+To capture congressional Twitter discourse on immigration, we conducted an initial keyword search that included inflammatory terms such as "rapist", and "border." This was done intentionally to ensure that we included extreme rhetoric relevant to the discussion. Many of these terms had been popularized by then-president Donald Trump during his 2016 campaign, which we felt warranted their inclusion.
 
-Analysis
+Once we completed our keyword search, we sorted our remaining tweets using the Louvain algorithm to identify "communities" of discourse. We then sorted the members of each community by party affiliation to better understand the proportion of Democrats to Republicans within them. 
 
-Health
-Military
-Immigration 
+![newplot](https://github.com/Noreht/sna2_project-/assets/151726759/ff2d78f3-f347-4f4f-81d3-b83777a86f9f)
+
+We repeated this same process to identify communities of discourse on healthcare and the Military.
+
+### Healthcare
+
+![newplot-2](https://github.com/Noreht/sna2_project-/assets/151726759/6c0c531b-dc48-4d73-9257-eae050d80746)
+
+### Military
+
+![newplot-3](https://github.com/Noreht/sna2_project-/assets/151726759/9ad3c7a0-ab88-40f0-9402-2bc966cae750)
+
+
+## Analysis
+
+### Immigration
+
+Perhaps our most surprising finding was the results returned by our analysis of communities on immigration. Even after including extreme language to account for the tougher stance that Republicans have taken on immigration, it was still Democrats who appeared more often in our results. This might indicate a disparity in the importance of immigration as an issue of government for Democrats and Republicans. Since the Congress had only been sworn in 8 months ago, this might indicate that the issue of immigration mattered more to Republicans as an election issue and not a government one. A list of the most commonly used words in each community is included below.
+
+<img width="440" alt="Screenshot 2024-05-17 at 10 50 10 AM" src="https://github.com/Noreht/sna2_project-/assets/151726759/78aa0ac5-c6f3-4ca6-9427-44e0086413e3">
+
+### Healthcare
+
+Perhaps unsurprisingly, Democrats tended to dominate the discussion surrounding healthcare, as healthcare reform or renovation in some form has been a core component of the Democratic platform for some time. 
+
+<img width="443" alt="Screenshot 2024-05-17 at 10 53 21 AM" src="https://github.com/Noreht/sna2_project-/assets/151726759/a3432cbc-1f4f-4b4c-8f38-c16915cb8f2d">
+
+### Military
+
+Both Democrats and Republicans engaged with each other rather frequently in discussions of the military. At the same time, it appears that Democrats were more outspoken regarding issues related to Veteran's health.
+
+<img width="439" alt="Screenshot 2024-05-17 at 10 54 47 AM" src="https://github.com/Noreht/sna2_project-/assets/151726759/0f22fd6b-ac3a-4dfb-a025-60a3794090d5">
 
 ## Limitations and Improvements
 Our analysis yielded bar graphs visualizing political representation and community engagement, but we also acknowledged several limitations. 
@@ -39,5 +69,5 @@ Finally, we originally wished to use Natural Language Processing (NLP) to identi
 
 
 ## Conclusion
-At a time when US politics appear more divided than ever in recent memory, finding spaces of bipartisan discussion becomes that much more important. Understanding how politicians across the political spectrum and from both major parties interact online can help us to understand where consensus on long standing political issues may lie. Our analysis indicates
+At a time when US politics appear more divided than ever in recent memory, finding spaces of bipartisan discussion becomes that much more important. Understanding how politicians across the political spectrum and from both major parties interact online can help us to understand where consensus on long standing political issues may lie. Our analysis indicates that while some spaces of consesus were built between Republicans and Democrats on Twitter, there remains a substantial difference in how both parties and its members choose to discuss the same topics. With more time and a larger dataset, it may become possible to chart how this discourse has shifted over time since 2017.
 
